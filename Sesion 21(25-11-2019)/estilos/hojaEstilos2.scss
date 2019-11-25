@@ -9,3 +9,41 @@ body{
     font:1em $fuente1; /* En una solo linea puedo establecer el tamaño de fuente y la familia */
     color:$colorprincipal;
 }
+
+
+.contenedor{
+    margin-top: 50px;
+    width: 80%;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid blue;
+    box-sizing: border-box;
+    display: flow-root; /* A pesar de no darle una altura al contenedor , permite que este se adecue a los elementos que contenga*/
+
+}
+
+article[role="main"]{
+    float: left;
+    width: 600px / 960px * 100%;
+    min-height: 400px;
+    background-color: red;
+}
+aside[role="complementary"]{
+    float: right;
+    width: 360px / 960px * 100%;
+    min-height: 400px;
+    background-color: goldenrod;
+}
+
+/* Prueba de operadores */
+
+h3{
+    font-size: 5px *3;
+}
+h4{
+    font-size: 2px + 2px;
+}
+h5{
+    font-size: 2px +2;
+}
