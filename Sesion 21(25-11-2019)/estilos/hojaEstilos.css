@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.capacontenedora1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-height: 400px;
+  background-color: blanchedalmond;
+}
+.capacontenedora1 > .capahija1 {
+  /* Selector hijo.Añadido en Sass */
+  width: 50%;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.capacontenedora2 {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-height: 400px;
+  background-color: greenyellow;
+  text-align: center;
+}
+.capacontenedora2 .capahija2 {
+  /* Selector decendente.Añido en Sass */
+  width: 50%;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: orangered;
+  text-align: center;
+}
+
+/*# sourceMappingURL=hojaEstilos.css.map */

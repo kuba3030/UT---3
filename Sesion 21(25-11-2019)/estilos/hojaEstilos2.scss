@@ -1,0 +1,11 @@
+@import 'hojaEstiloimportar.scss';
+
+$fuente1: Helvetica , sans-serif;
+$colorprincipal: rgb(187,57,57);
+
+/* En este ejemplo vamos a aprender una propiedad nueva */
+
+body{
+    font:1em $fuente1; /* En una solo linea puedo establecer el tamaño de fuente y la familia */
+    color:$colorprincipal;
+}
