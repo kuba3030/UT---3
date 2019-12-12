@@ -1,3 +1,45 @@
+.contenedorflexaligncontent > div, .contenedorflexcentradoperfecto > div, .contenedorflex > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 1.8rem;
+}
 
+.contenedorflexaligncontent, .contenedorflexcentradoperfecto, .contenedorflex {
+  display: flex;
+  background-color: rgba(248, 183, 19, 0.925);
+  min-height: 500px;
+  flex-wrap: wrap;
+}
+
+.contenedorflex {
+  justify-content: center;
+  align-items: flex-start;
+}
+.contenedorflexcentradoperfecto {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorflexaligncontent {
+  justify-content: center;
+  align-items: flex-start;
+  align-content: space-between;
+}
+/*Ejemplo Baseline. No optimizo codigo*/
+.contenedorflexbaseline {
+  display: flex;
+  height: 200px;
+  align-items: baseline;
+  background-color: hotpink;
+}
+.contenedorflexbaseline > div {
+  background-color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
 
 /*# sourceMappingURL=HojaEstilos1.css.map */

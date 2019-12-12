@@ -1,0 +1,23 @@
+.contenedorcentradoperfecto > div, .contenedorcentradohorizontal > div {
+  background-color: gold;
+  margin: 15px;
+  padding: 18px;
+  font-size: 2rem;
+}
+
+.contenedorcentradoperfecto, .contenedorcentradohorizontal {
+  display: flex;
+  background-color: black;
+  min-height: 500px;
+  justify-content: center;
+}
+
+.contenedorcentradohorizontal {
+  align-items: flex-start;
+}
+.contenedorcentradoperfecto {
+  margin-top: 20px;
+  align-items: center;
+}
+
+/*# sourceMappingURL=hojaestilos2.css.map */

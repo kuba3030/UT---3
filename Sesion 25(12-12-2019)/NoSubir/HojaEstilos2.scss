@@ -1,0 +1,29 @@
+%capahija1{
+    background-color: gold;
+    margin:15px;
+    padding:18px;
+    font-size:2rem;
+}
+%contenedor{
+    display: flex;
+    background-color: black;
+    min-height: 500px;
+    justify-content: center;;
+}
+
+.contenedorcentradohorizontal{
+    @extend %contenedor;
+    align-items: flex-start;
+    >div{
+        @extend %capahija1;
+    }
+}
+
+.contenedorcentradoperfecto{
+    margin-top:20px ;
+    @extend %contenedor;
+    align-items: center;
+    >div{
+        @extend %capahija1;
+    }
+}

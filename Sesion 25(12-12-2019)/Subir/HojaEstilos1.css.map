@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"HojaEstilos1.css"}
+{"version":3,"sourceRoot":"","sources":["../nosubir/HojaEstilos1.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;;;AAEJ;EACI;EACA;EACA;EACA;;;AAEJ;EAEG;EACA;;AAKH;EACI;EAEA;EACA;;AAMJ;EAEG;EACA;EACA;;AAMH;AACA;EACI;EACA;EACA;EACA;;AACC;EACG;EACA;EACA;EACA;EACA;EACA","file":"HojaEstilos1.css"}
