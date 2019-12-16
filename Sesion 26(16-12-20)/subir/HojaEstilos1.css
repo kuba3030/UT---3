@@ -1,0 +1,64 @@
+.contenedorflex {
+  display: flex;
+  width: 500px;
+  background-color: lightgray;
+  padding: 20px;
+  min-height: 300px;
+}
+.contenedorflex > .elemento1 {
+  /* flex-basis: 200px; /*Cuando le pones fijo no crece*/
+  flex-basis: auto;
+  flex-grow: 1;
+  background-color: gold;
+}
+.contenedorflex > .elemento2 {
+  flex-basis: auto;
+  flex-grow: 2;
+  background-color: gold;
+}
+.contenedorflex > .elemento3 {
+  flex-basis: auto;
+  flex-grow: 2;
+  background-color: gold;
+}
+.contenedorflex > .elementohijo {
+  background-color: gold;
+  padding: 20px;
+  align-self: flex-start;
+}
+.contenedorflex > .elementohijo1 {
+  background-color: gold;
+  padding: 20px;
+  align-self: flex-end;
+}
+.contenedorflex > .elementohijo2 {
+  background-color: gold;
+  padding: 20px;
+  align-self: center;
+}
+
+.contenedorflex1 {
+  display: flex;
+  background-color: lightgray;
+  padding: 20px;
+}
+.contenedorflex1 > .elemento1 {
+  background-color: gold;
+  padding: 10px;
+  display: flex;
+  /*No la hereda*/
+}
+.contenedorflex1 > .elemento1 > .elemento11 {
+  background-color: red;
+  padding: 10px;
+}
+.contenedorflex1 > .elemento1 > .elemento12 {
+  background-color: red;
+  padding: 10px;
+}
+.contenedorflex1 > .elemento2 {
+  background-color: gold;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=HojaEstilos1.css.map */

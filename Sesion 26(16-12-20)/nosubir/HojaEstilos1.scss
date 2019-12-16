@@ -1,0 +1,61 @@
+.contenedorflex{
+    display:flex;
+    width: 500px;
+    background-color: lightgray;
+    padding:20px;
+    min-height: 300px;
+    > .elemento1{
+        /* flex-basis: 200px; /*Cuando le pones fijo no crece*/
+        flex-basis: auto;
+        flex-grow: 1;
+        background-color: gold;
+    }
+    > .elemento2{
+        flex-basis: auto;
+        flex-grow: 2;
+        background-color: gold;
+    }
+    > .elemento3{
+        flex-basis: auto;
+        flex-grow: 2;
+        background-color: gold;
+    }
+    > .elementohijo{
+        background-color: gold;
+        padding:20px;
+        align-self: flex-start;
+    }
+    > .elementohijo1{
+        background-color: gold;
+        padding:20px;
+        align-self: flex-end;
+    }
+    > .elementohijo2{
+        background-color: gold;
+        padding:20px;
+        align-self: center;
+    }
+}
+
+.contenedorflex1{
+    display: flex;
+    background-color: lightgray;
+    padding: 20px;
+    > .elemento1{
+        background-color: gold;
+        padding:10px;
+        display:flex; /*No la hereda*/
+        >.elemento11{
+            background-color: red;
+            padding:10px;
+        }
+        >.elemento12{
+            background-color: red;
+            padding:10px;
+        }
+    }
+    > .elemento2{
+        background-color: gold;
+        padding:10px;
+    }
+}
